@@ -1,5 +1,5 @@
 # Python RPcamera
-This is a simple and quick way to control a RP5 camera with a python terminal on a PC. The workflow has not been tested with MAC. The system uses [CamUI for picamera2](https://github.com/monkeymademe/CamUI) to generate a web feed and opencv to retrieve it.
+This is a simple and quick way to control a RP5 camera with a python terminal on a PC. The workflow has not been tested with MAC but it should work the same. The system uses [CamUI for picamera2](https://github.com/monkeymademe/CamUI) to generate a web feed and opencv to retrieve it.
 
 You first have to configure the raspberry pi cameras. The rest of this mini protocol assumes that you are able to use the camera on the raspberry pi. You can test this with the command `libcamera-hello --camera 0` in the bash. You should see a live preview.
 
